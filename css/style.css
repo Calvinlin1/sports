@@ -104,7 +104,7 @@ div {
 } 
 
 .inline-wrapper div:hover img{
-	transition: 1s;
+	transition: 2s; 
 	opacity: 0.3;
 	
 
