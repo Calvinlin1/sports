@@ -1,0 +1,104 @@
+html {
+    background-color: white;
+    font-family: Arial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sea {
+    width: 100%;
+    height: auto;
+}
+
+.high {
+    width: 10px;
+    height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+}
+
+ul {
+    padding: 0px;}
+
+.tc {
+    font-size: 64px;
+    font-family: kaiti;
+}
+
+nav, ul {width: 100%;}
+
+li {
+    font-size: 20px;
+    width: 19.55%;
+    padding-left: 0px;
+    display: inline-block;
+    text-align: center; 
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5px;
+    transition: background-color 0.7s; 
+    }
+
+li a:hover {
+    background-color: white;}
+
+h1 {
+    color:red; 
+    font-size:64px;
+    text-align: center;
+    font-family: Lobster;
+    position: absolute;
+    top: 115px;
+    right: 20px;
+    left: 20px;
+}
+
+.logo {
+    position: relative;}
+
+.two {
+    width: 25%;}
+
+.content {
+    position: absolute;
+    opacity:0;
+    text-align: center;
+    left: 105px;
+    top: 14px;
+    width: auto;
+}
+
+.logo:hover .content {
+    opacity: 1;}
+
+.logo:hover .two {
+    opacity:0;}
+
+p {
+    font-size:200%; 
+    color: green;
+}
+    
+h2 {
+    color:blue; 
+    font-size:200%; 
+}
+    
+div {color:red;}
+
+.footer {
+    background-color: rgba(13, 9, 6, 0.9); 
+    text-align: right;
+    color: rgba(246, 242, 233, 0.95);
+    padding: 5px;
+    font-size: 120%;
+}
